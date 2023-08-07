@@ -1,11 +1,12 @@
-public class BubbleSort {
+ class BubbleSort {
     public static void main(String[] args) {
         int[] myArray = {64, 34, 25, 12, 22, 11, 90};
         int[] sortedArray = bubbleSort(myArray);
         
         for (int num : sortedArray) {
-            System.out.print(num + " ");
+            System.out.print( num + " ");
         }
+        // System.out.println( "The Sorted Array is "+sortedArray);
     }
     
     public static int[] bubbleSort(int[] arr) {

@@ -1,5 +1,5 @@
 // I'm creating a function to perform bubble sort
-function bubble_sort(arr: number[]) {
+export function bubble_sort(arr: number[]) {
     for (let i = 0; i < arr.length; i++) {
         // this flag variable is to optimize the code 
         // in the best case the time complexity is o(n)
@@ -21,6 +21,6 @@ function bubble_sort(arr: number[]) {
 }
 
 // This is to test the function
-let arr = [9, 3, 7, 4, 69, 420, 42];
-let sorted_array = bubble_sort(arr);
-console.log(sorted_array)
+// let arr = [9, 3, 7, 4, 69, 420, 42];
+// let sorted_array = bubble_sort(arr);
+// console.log(sorted_array)
